@@ -7,6 +7,7 @@ Below we have the principal technologies used: <br>
 :heavy_check_mark: ReactJS <br>
 :heavy_check_mark: Typescript <br>
 :heavy_check_mark: Node.js <br>
+:heavy_check_mark: Vercel <br>
 
 ## Author
 
@@ -21,6 +22,7 @@ Below we have the principal technologies used: <br>
 [ReactJS](https://pt-br.reactjs.org/)<br>
 [Typescript](https://www.typescriptlang.org/)<br>
 [Node.js](https://nodejs.org/en/)<br>
+[Vercel](https://vercel.com/)<br>
 
 ## :pencil: License
 
