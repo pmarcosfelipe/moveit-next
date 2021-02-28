@@ -1,0 +1,64 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: url('/bg-simbolo.svg') var(--blue) no-repeat;
+  background-position: left center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container main {
+  height: 100vh;
+  width: 992px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.container section {
+  width: 496px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container section > img {
+  margin-bottom: 10rem;
+}
+
+.container section strong {
+  font-size: 2.25rem;
+  color: var(--white);
+}
+
+.authenticationButton {
+  width: 100%;
+  height: 5rem;
+  margin-top: 2.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 0;
+  border-radius: 5px;
+  background: transparent;
+  color: var(--text-highlight);
+  font-size: 1.25rem;
+  text-align: left;
+  outline: none;
+
+  transition: background-color 0.2s;
+}
+
+.authenticationButton:hover {
+  background: var(--blue-dark);
+}
+
+.authenticationButton img {
+  margin-right: 20px;
+}
